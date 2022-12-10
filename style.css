@@ -1,0 +1,56 @@
+.celda-nombre,
+.celda-dia {
+	width: 4em;
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(104, 104, 110, 0.315);
+	transition: background-color 0.3s ease;
+	user-select: none;
+	border-radius: 0.2em;
+}
+.celda-nombre:hover,
+.celda-dia:hover {
+	background-color: rgba(104, 104, 110, 0.644);
+}
+.celda-nombre {
+	font-weight: 700;
+}
+.celda-nombre:nth-of-type(7n),
+.celda-dia:nth-of-type(7n) {
+	color: rgb(156, 16, 11);
+}
+.contenedor-semanas {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	gap: 0.3em;
+	padding: 0.3em;
+}
+section {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 1em;
+	justify-content: center;
+	align-items: space-between;
+}
+h1,
+h2 {
+	text-align: center;
+	color: white;
+}
+h2 {
+	text-transform: uppercase;
+}
+.contenedor-mes {
+	border: 1px solid slategray;
+	background: linear-gradient(
+		135deg,
+		rgba(41, 36, 113, 1) 0%,
+		rgba(75, 75, 172, 1) 100%
+	);
+	border-radius: 0.2em;
+}
+body {
+	background-color: rgb(46, 43, 58);
+}
