@@ -7,4 +7,4 @@ Se ha usado map para generar el html del calendario y forEach para ocultar las c
 Hay conceptos semiavanzados de CSS como el pseudoselector :nth-of-type()
 
 El ejercicio está diseñado para conceptualizar cómo separar un renderizado en componentes, y el anidado de componentes para crear
-una cierta disposici
+una cierta disposición en pantalla.
